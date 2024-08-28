@@ -1,0 +1,62 @@
+
+  <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Simple version of Rock peper Sciss0r</title>
+            <link rel="stylesheet" href="styles/rock-peper-scissor.css">
+        </head>
+        <body>
+
+        <p class="Title-para">
+            Rock Paper scissors Game
+        </p>
+
+            <button class="move-button"
+            onclick="
+    
+        compireSystemAndUserMove('Rock');
+        ">
+           <img class="rock-button-image image-marg" 
+           src="images/Rock-emoji.png" alt="Rock">
+            </button>
+            
+            <button class="move-button"
+            onclick="
+            
+            compireSystemAndUserMove('peper');
+        
+        " >
+           <img class="peper-button-image image-marg" 
+           src="images/peper-emoji.png" alt="peper">
+            </button>
+            
+            
+            <button class="move-button" onclick="
+        compireSystemAndUserMove('scissor');
+        
+        
+        " >
+          <img class="scissor-button-img image-marg"
+           src="images/scissor-emoji.png" alt="scissor">
+            </button>
+            <p class="past-result past-result-p"></p>
+            <p class="result-para past-result-p">
+ 
+            </p>
+            <button class="Reset-button"
+            onclick="
+          
+     
+              score.win = 0;
+              score.lose = 0;
+              score.tie = 0;
+            
+          document.querySelector('.past-result').innerHTML=`win:${score.win} Lose:${score.lose} Tie:${score.tie}`;
+            "
+            
+            >Reset Score</button>
+             <script src="scripts/rock-peper-scissor.js"></script>   
+            </body>
+            </html>
