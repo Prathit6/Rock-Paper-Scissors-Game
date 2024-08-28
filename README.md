@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors-Game
 ---
 
-Projects are the best way to learn JavaScript, and Rock-Paper-Scissors is an excellent choice to start with.**
+Projects are the best way to learn JavaScript, and Rock-Paper-Scissors is an excellent choice to start with.
 
 ->About the Game:Rock-Paper-Scissors is a simple hand game where two players simultaneously choose one of three shapes: rock, paper, or scissors.
 
